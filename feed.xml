@@ -7,7 +7,10 @@
     <language>cs</language>
     <itunes:author>Miroslav Blohmann</itunes:author>
     <itunes:explicit>false</itunes:explicit>
-    <itunes:email>otisk.podcast@gmail.com</itunes:email>
+<itunes:owner>
+  <itunes:name>Miroslav Blohmann</itunes:name>
+  <itunes:email>otisk.podcast@gmail.com</itunes:email>
+</itunes:owner>
     <itunes:image href="https://blohmmi.github.io/podcast-feed/cover.jpg"/>
     <item>
       <title>Epizoda 1: Testovací epizoda</title>

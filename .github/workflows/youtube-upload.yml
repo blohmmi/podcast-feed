@@ -30,7 +30,10 @@ jobs:
         run: gdown "${{ github.event.inputs.file_id }}" -O audio.mp3
 
       - name: Install FFmpeg
-        uses: FedericoCarboni/setup-ffmpeg@v3
+        run: |
+          wget -q https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz
+          tar xf ffmpeg-release-amd64-static.tar.xz
+          sudo mv ffmpeg-*-amd64-static/ffmpeg /usr/local/bin/ffmpeg
 
       - name: Create video from audio + cover
         run: |

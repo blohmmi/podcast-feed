@@ -21,8 +21,17 @@ def upload_video(title, file_path):
     body = {
         'snippet': {
             'title': title,
-            'description': 'Audio přehled generovaný pomocí NotebookLM.',
-            'tags': ['podcast', 'AI', 'NotebookLM'],
+            'description': f"""{title}
+
+Pravda za PR verzí. Zákulisí, drby a fakta, která veřejnost nezná — příběhy nejlepších podnikatelů světa tak, jak je Forbes nepublikoval.
+
+Jeden příběh. Jeden „Cože?!" moment. Jedno konkrétní poučení.
+
+🎙️ Poslouchej také na Spotify a Apple Podcasts — hledej OTISK.""",
+            'tags': [
+                'OTISK', 'podcast', 'podnikání', 'byznys', 'podnikatel',
+                'příběhy', 'motivace', 'česky', 'startup', 'úspěch'
+            ],
             'categoryId': '22'
         },
         'status': {

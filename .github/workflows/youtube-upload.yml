@@ -27,7 +27,8 @@ jobs:
         run: pip install gdown google-api-python-client google-auth-oauthlib
 
       - name: Download audio from Drive
-    run: gdown "${{ github.event.inputs.file_id }}" -O audio.mp3
+        run: gdown "${{ github.event.inputs.file_id }}" -O audio.mp3
+
       - name: Install FFmpeg
         run: sudo apt-get install -y ffmpeg
 

@@ -30,7 +30,7 @@ jobs:
         run: gdown "${{ github.event.inputs.file_id }}" -O audio.mp3
 
       - name: Install FFmpeg
-        run: sudo apt-get install -y ffmpeg
+        run: sudo apt-get install -y --fix-missing ffmpeg
 
       - name: Create video from audio + cover
         run: |

@@ -1,24 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:content="http://purl.org/rss/modules/content/">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>OTISK</title>
     <link>https://blohmmi.github.io/podcast-feed/</link>
+    <description>Příběhy lidí, kteří zanechali otisk na světě. A někdy šrám.</description>
     <language>cs</language>
-    <description>Příběhy lidí, kteří zanechali otisk na světě. A někdy šrám</description>
     <itunes:author>Miroslav Blohmann</itunes:author>
-    <itunes:category text="Technology"/>
-    <itunes:image href="https://TVŮJ-USERNAME.github.io/podcast-feed/cover.jpg"/>
     <itunes:explicit>false</itunes:explicit>
-      <item>
-    <title>Epizoda 1: Od drhnutí záchodů k pěti bilionům dolarů.m4a</title>
-    <description>Audio přehled generovaný pomocí NotebookLM.</description>
-    <enclosure url="https://drive.google.com/uc?export=download&id=1-Fx683aw63bsYlDiOxIsHorX4zZHOPz7" type="audio/mpeg" length="0"/>
-    <pubDate>Mon, 08 Jun 2026 10:18:58 GMT</pubDate>
-    <guid isPermaLink="false">https://drive.google.com/uc?export=download&id=1-Fx683aw63bsYlDiOxIsHorX4zZHOPz7</guid>
-    <itunes:episode>1</itunes:episode>
-  </item>
-  <!-- ITEMS -->
   </channel>
 </rss>

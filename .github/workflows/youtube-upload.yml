@@ -1,0 +1,50 @@
+name: Upload to YouTube
+on:
+  workflow_dispatch:
+    inputs:
+      file_id:
+        description: 'Google Drive File ID'
+        required: true
+      title:
+        description: 'Episode title'
+        required: true
+      episode_num:
+        description: 'Episode number'
+        required: true
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install gdown google-api-python-client google-auth-oauthlib
+
+      - name: Download audio from Drive
+        run: gdown --id "${{ github.event.inputs.file_id }}" -O audio.mp3
+
+      - name: Install FFmpeg
+        run: sudo apt-get install -y ffmpeg
+
+      - name: Create video from audio + cover
+        run: |
+          ffmpeg -loop 1 -i cover.jpg -i audio.mp3 \
+            -c:v libx264 -tune stillimage \
+            -c:a aac -b:a 192k \
+            -pix_fmt yuv420p -shortest output.mp4
+
+      - name: Upload to YouTube
+        env:
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+        run: |
+          python upload_youtube.py \
+            --title "Epizoda ${{ github.event.inputs.episode_num }}: ${{ github.event.inputs.title }}" \
+            --file output.mp4

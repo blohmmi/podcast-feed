@@ -6,10 +6,10 @@ on:
         description: 'Google Drive File ID'
         required: true
       title:
-        description: 'Episode title'
+        description: 'Název souboru z Drive (např. Brian Chesky: Jak_vznikl_Airbnb.m4a)'
         required: true
       episode_num:
-        description: 'Episode number'
+        description: 'Číslo epizody'
         required: true
 jobs:
   upload:
@@ -42,9 +42,9 @@ jobs:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
-          VIDEO_TITLE: "Epizoda ${{ github.event.inputs.episode_num }}: ${{ github.event.inputs.title }}"
         run: |
-          echo "Titul: $VIDEO_TITLE"
+          echo "${{ github.event.inputs.episode_num }}. Otisk: ${{ github.event.inputs.title }}" > video_title.txt
+          cat video_title.txt
           python upload_youtube.py \
-            --title "$VIDEO_TITLE" \
+            --title-file video_title.txt \
             --file output.mp4

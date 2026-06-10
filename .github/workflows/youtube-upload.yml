@@ -42,7 +42,9 @@ jobs:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          VIDEO_TITLE: "Epizoda ${{ github.event.inputs.episode_num }}: ${{ github.event.inputs.title }}"
         run: |
+          echo "Titul: $VIDEO_TITLE"
           python upload_youtube.py \
-            --title "Epizoda ${{ github.event.inputs.episode_num }}: ${{ github.event.inputs.title }}" \
+            --title "$VIDEO_TITLE" \
             --file output.mp4

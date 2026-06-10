@@ -6,6 +6,7 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 def upload_video(title, file_path):
+    print(f"DEBUG titul: '{title}'")
     creds = Credentials(
         token=None,
         refresh_token=os.environ['YOUTUBE_REFRESH_TOKEN'],
@@ -15,18 +16,13 @@ def upload_video(title, file_path):
         scopes=['https://www.googleapis.com/auth/youtube.upload']
     )
     creds.refresh(Request())
-
     youtube = build('youtube', 'v3', credentials=creds)
-
     body = {
         'snippet': {
             'title': title,
             'description': f"""{title}
-
 Pravda za PR verzí. Zákulisí, drby a fakta, která veřejnost nezná — příběhy nejlepších podnikatelů světa tak, jak je Forbes nepublikoval.
-
 Jeden příběh. Jeden „Cože?!" moment. Jedno konkrétní poučení.
-
 🎙️ Poslouchej také na Spotify a Apple Podcasts — hledej OTISK.""",
             'tags': [
                 'OTISK', 'podcast', 'podnikání', 'byznys', 'podnikatel',
@@ -38,7 +34,6 @@ Jeden příběh. Jeden „Cože?!" moment. Jedno konkrétní poučení.
             'privacyStatus': 'public'
         }
     }
-
     media = MediaFileUpload(file_path, chunksize=-1, resumable=True)
     request = youtube.videos().insert(
         part=','.join(body.keys()),

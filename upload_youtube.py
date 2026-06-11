@@ -61,7 +61,7 @@ Jeden příběh. Jeden „Cože?!" moment. Jedno konkrétní poučení.
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--title', required=True)
     parser.add_argument('--file', required=True)
     args = parser.parse_args()
-    upload_video(args.title, args.file)
+    title = os.environ.get('VIDEO_TITLE', '').strip() or 'Otisk: Epizoda'
+    upload_video(title, args.file)

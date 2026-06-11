@@ -6,12 +6,6 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 def upload_video(title, file_path):
-    # Očisti název souboru na čitelný titul
-    title = title.replace('.m4a', '').replace('.mp3', '')
-    title = title.replace('_', ' ').strip()
-    title = title[:100]
-    print(f"DEBUG titul: '{title}'")
-
     creds = Credentials(
         token=None,
         refresh_token=os.environ['YOUTUBE_REFRESH_TOKEN'],
@@ -21,13 +15,16 @@ def upload_video(title, file_path):
         scopes=['https://www.googleapis.com/auth/youtube.upload']
     )
     creds.refresh(Request())
+
     youtube = build('youtube', 'v3', credentials=creds)
+
     body = {
         'snippet': {
             'title': title,
             'description': f"""{title}
 
 Pravda za PR verzí. Zákulisí, drby a fakta, která veřejnost nezná — příběhy nejlepších podnikatelů světa tak, jak je Forbes nepublikoval.
+
 Jeden příběh. Jeden „Cože?!" moment. Jedno konkrétní poučení.
 
 🎙️ Poslouchej také na Spotify a Apple Podcasts — hledej OTISK.""",
@@ -41,6 +38,7 @@ Jeden příběh. Jeden „Cože?!" moment. Jedno konkrétní poučení.
             'privacyStatus': 'public'
         }
     }
+
     media = MediaFileUpload(file_path, chunksize=-1, resumable=True)
     request = youtube.videos().insert(
         part=','.join(body.keys()),
@@ -52,11 +50,7 @@ Jeden příběh. Jeden „Cože?!" moment. Jedno konkrétní poučení.
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--title-file', required=True)
+    parser.add_argument('--title', required=True)
     parser.add_argument('--file', required=True)
     args = parser.parse_args()
-
-    with open(args.title_file, 'r', encoding='utf-8') as f:
-        title = f.read().strip()
-
-    upload_video(title, args.file)
+    upload_video(args.title, args.file)

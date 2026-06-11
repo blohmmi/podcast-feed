@@ -1,11 +1,22 @@
 import os
+import re
 import argparse
 from google.oauth2.credentials import Credentials
 from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
+def sanitize_title(title):
+    title = re.sub(r'[<>]', '', title)
+    title = title.strip()
+    if len(title) > 100:
+        title = title[:97] + '...'
+    return title or 'Otisk: Epizoda'
+
 def upload_video(title, file_path):
+    title = sanitize_title(title)
+    print(f"Titul: {title}")
+
     creds = Credentials(
         token=None,
         refresh_token=os.environ['YOUTUBE_REFRESH_TOKEN'],

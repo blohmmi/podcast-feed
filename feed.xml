@@ -12,6 +12,14 @@
   <itunes:email>otisk.podcast@gmail.com</itunes:email>
 </itunes:owner>
     <itunes:image href="https://blohmmi.github.io/podcast-feed/cover.jpg"/>
-     <!-- ITEMS --> 
+       <item>
+    <title>Otisk: Patrick_Collison_a_miliardové_impérium_Stripe</title>
+    <description>Pravda za PR verzí. Zákulisí, drby a fakta, která veřejnost nezná.</description>
+    <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1r6c0gIVHI06jK_zWjGPu-YrxKJT9xEx4" type="audio/mpeg" length="0"/>
+    <pubDate>Fri, 12 Jun 2026 07:15:19 GMT</pubDate>
+    <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1r6c0gIVHI06jK_zWjGPu-YrxKJT9xEx4</guid>
+    <itunes:episode>26</itunes:episode>
+  </item>
+  <!-- ITEMS --> 
   </channel>
 </rss>

@@ -12,6 +12,6 @@
   <itunes:email>otisk.podcast@gmail.com</itunes:email>
 </itunes:owner>
     <itunes:image href="https://blohmmi.github.io/podcast-feed/cover.jpg"/>
-    
+     <!-- ITEMS --> 
   </channel>
 </rss>

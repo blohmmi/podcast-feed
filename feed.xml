@@ -12,6 +12,14 @@
   <itunes:email>otisk.podcast@gmail.com</itunes:email>
 </itunes:owner>
     <itunes:image href="https://blohmmi.github.io/podcast-feed/cover.jpg"/>
+    <item>
+    <title>36. Otisk: Elon Musk Trauma jako raketové palivo</title>
+    <description>Pravda za PR verzí. Zákulisí, drby a fakta, která veřejnost nezná.</description>
+    <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1ckJrI6CNLpgELHL__m3wSwXLM6YdPL0V" type="audio/mpeg" length="0"/>
+    <pubDate>Fri, 12 Jun 2026 08:03:39 GMT</pubDate>
+    <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1ckJrI6CNLpgELHL__m3wSwXLM6YdPL0V</guid>
+    <itunes:episode>36</itunes:episode>
+  </item>
   <!-- ITEMS --> 
   </channel>
 </rss>

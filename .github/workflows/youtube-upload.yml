@@ -11,6 +11,9 @@ on:
       episode_num:
         description: 'Číslo epizody'
         required: true
+      description:
+        description: 'Popisek epizody'
+        required: false  
 
 jobs:
   upload:

@@ -5,7 +5,7 @@
     <link>https://blohmmi.github.io/podcast-feed/</link>
     <description>Příběhy lidí, kteří zanechali otisk na světě. A někdy šrám.</description>
     <language>cs</language>
-    <itunes:author>Otisk Podcastn</itunes:author>
+    <itunes:author>Otisk Podcast</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
       <itunes:name>Otisk Podcast</itunes:name>
@@ -35,7 +35,7 @@ Tahle epizoda se neptá, co Musk dokázal. Ptá se, co ho k tomu hnalo — a co 
       <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1ckJrI6CNLpgELHL__m3wSwXLM6YdPL0V" type="audio/mpeg" length="0"/>
       <pubDate>Fri, 12 Jun 2026 08:03:39 GMT</pubDate>
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1ckJrI6CNLpgELHL__m3wSwXLM6YdPL0V</guid>
-      <itunes:episode>36</itunes:episode>
+      <itunes:episode>1</itunes:episode>
     </item>
 
     <item>
@@ -57,7 +57,7 @@ Tato epizoda se nedívá na Apple skrze keynoty. Dívá se na člověka, který 
       <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=18RFo5fjuIJ5wivDn-rX_1Ci_-S8hmBT9" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 13 Jun 2026 07:34:36 GMT</pubDate>
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=18RFo5fjuIJ5wivDn-rX_1Ci_-S8hmBT9</guid>
-      <itunes:episode>3</itunes:episode>
+      <itunes:episode>2</itunes:episode>
     </item>
 
     <item>
@@ -121,7 +121,7 @@ Tato epizoda sleduje, jak z osobních katastrof vzniklo impérium — a co to ř
       <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1MBaswFCoEXeM0wzuVfq_a2C_UXXFNCIu</guid>
       <itunes:episode>5</itunes:episode>
     </item>
-    
+
     <item>
       <title>6. Otisk: Adam Neumann Miliardový krach a návrat</title>
       <description>Adam Neumann přesvědčil SoftBank, aby do jeho firmy nalila přes deset miliard dolarů. WeWork nepronajímalo kanceláře — prodávalo pocit revoluce. Když bublina praskla, Neumann odešel s miliardovým odstupným, zatímco tisíce zaměstnanců přišly o práci a akcie. A pak se vrátil s novou firmou.
@@ -138,58 +138,52 @@ Tahle epizoda se neptá, jak Neumann prodával sny. Ptá se, proč mu to tak dlo
 📌 OTISK je podcast o lidech, kteří zanechali stopu — ať chtěli, nebo ne.
 
 #AdamNeumann #WeWork #OTISK #Podcast #Byznys #Startup #Miliardáři</description>
-      <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1Q8MNd_OfpL-6ZmJZ9h0zIt2FVCwrgyDv" type="audio/mpeg" length="0"/>
+      <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1WJxFQ3GiCNy6D2MfWPQsApM18YlAHBQe" type="audio/mpeg" length="0"/>
       <pubDate>Sat, 13 Jun 2026 09:30:00 GMT</pubDate>
-      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1Q8MNd_OfpL-6ZmJZ9h0zIt2FVCwrgyDv</guid>
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1WJxFQ3GiCNy6D2MfWPQsApM18YlAHBQe</guid>
       <itunes:episode>6</itunes:episode>
-    </item> 
-    
-    <item>
-    <title>7. Otisk: Sam Bankman-Fried Miliardový podvod ve jménu vyššího dobra</title>
-    <description># 7. Otisk: Sam Bankman-Fried — Miliardový podvod ve jménu vyššího dobra
+    </item>
 
-Sam Bankman-Fried daroval stovky milionů na charitu, financoval politiky a tvrdil, že chce zachránit svět. Zároveň používal peníze klientů jako vlastní bankovní účet. Když FTX v listopadu 2022 zkolabovala, zmizelo přes osm miliard dolarů — a SBF stále tvrdil, že udělal jen účetní chybu.
+    <item>
+      <title>7. Otisk: Sam Bankman-Fried Miliardový podvod ve jménu vyššího dobra</title>
+      <description>Sam Bankman-Fried daroval stovky milionů na charitu, financoval politiky a tvrdil, že chce zachránit svět. Zároveň používal peníze klientů jako vlastní bankovní účet. Když FTX v listopadu 2022 zkolabovala, zmizelo přes osm miliard dolarů — a SBF stále tvrdil, že udělal jen účetní chybu.
 
 Tato epizoda se neptá, jestli byl SBF podvodník — to rozhodl soud. Ptá se, jak je možné, že mu tolik chytrých lidí tak dlouho věřilo, a co o nás říká filozofie, která ospravedlňuje lež jako nástroj dobra.
 
 🎙️ V epizodě uslyšíš:
-
 – Jak efektivní altruismus posloužil jako morální krytí pro miliardové riziko s cizími penězi
 – Proč Silicon Valley, média i politici ignorovali varovné signály roky před kolapsem
 – Jakým způsobem SBF vědomě budoval image rozcuchaného génia místo image byznysmena
 – Co vypovídají jeho vlastní texty a rozhovory o tom, jak přemýšlel o pravdě a lži
 – Jak případ změnil regulaci kryptoměn a co z toho plyne pro další velká jména oboru
 
----
-
 📌 OTISK je podcast o lidech, kteří zanechali stopu — ať chtěli, nebo ne.</description>
-    <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=19FLTvx53ZtXQ0i90lIEjHXa6_kDQoKI_" type="audio/mpeg" length="0"/>
-    <pubDate>Sat, 13 Jun 2026 13:40:01 GMT</pubDate>
-    <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=19FLTvx53ZtXQ0i90lIEjHXa6_kDQoKI_</guid>
-    <itunes:episode>7</itunes:episode>
-  </item>
-    <item>
-    <title>8. Otisk: Brian Chesky Jak designér Brian Chesky vzkřísil Airbnb</title>
-    <description># 8. Otisk: Brian Chesky – Jak designér Brian Chesky vzkřísil Airbnb
+      <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=19FLTvx53ZtXQ0i90lIEjHXa6_kDQoKI_" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 13 Jun 2026 13:40:01 GMT</pubDate>
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=19FLTvx53ZtXQ0i90lIEjHXa6_kDQoKI_</guid>
+      <itunes:episode>7</itunes:episode>
+    </item>
 
-V roce 2020 Airbnb přišlo za jediný týden o 80 % rezervací. Investoři psali odpisy, média psala nekrology. Brian Chesky propustil 1 900 zaměstnanců — a přesto o rok a půl později provedl jedno z největších IPO v historii Silicon Valley. Nikdo to nečekal, včetně něj.
+    <item>
+      <title>8. Otisk: Brian Chesky Jak designér Brian Chesky vzkřísil Airbnb</title>
+      <description>V roce 2020 Airbnb přišlo za jediný týden o 80 % rezervací. Investoři psali odpisy, média psala nekrology. Brian Chesky propustil 1 900 zaměstnanců — a přesto o rok a půl později provedl jedno z největších IPO v historii Silicon Valley. Nikdo to nečekal, včetně něj.
 
 Tahle epizoda se neptá, jak Airbnb přežilo. Ptá se, co Chesky udělal jinak než ostatní CEO v krizi — a jestli jeho posedlost designem a detailem byla výhoda, nebo past, která mu málem zlomila vaz.
 
-**🎙️ V epizodě uslyšíš:**
-
+🎙️ V epizodě uslyšíš:
 – Proč Chesky odmítl standardní krizový manuál a vsadil na osobní dopisy místo PR
 – Jak myšlení designéra zachránilo produkt — ale skoro zničilo firmu zevnitř
-– Co znamenalo „žít v Airbnb&quot; a proč to bylo víc symptom než strategie
+– Co znamenalo „žít v Airbnb" a proč to bylo víc symptom než strategie
 – Jak IPO uprostřed pandemie odhalilo, komu skutečně patří rozhodnutí ve firmě
 – Kde končí vizionářství a začíná nekontrolované řízení ze strachu
 
 📌 OTISK je podcast o lidech, kteří zanechali stopu — ať chtěli, nebo ne.</description>
-    <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1Q8MNd_OfpL-6ZmJZ9h0zIt2FVCwrgyDv" type="audio/mpeg" length="0"/>
-    <pubDate>Sat, 13 Jun 2026 13:56:15 GMT</pubDate>
-    <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1Q8MNd_OfpL-6ZmJZ9h0zIt2FVCwrgyDv</guid>
-    <itunes:episode>8</itunes:episode>
-  </item>
-  <!-- ITEMS -->
+      <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1Q8MNd_OfpL-6ZmJZ9h0zIt2FVCwrgyDv" type="audio/mpeg" length="0"/>
+      <pubDate>Sat, 13 Jun 2026 13:56:15 GMT</pubDate>
+      <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1Q8MNd_OfpL-6ZmJZ9h0zIt2FVCwrgyDv</guid>
+      <itunes:episode>8</itunes:episode>
+    </item>
+
+    <!-- ITEMS -->
   </channel>
 </rss>

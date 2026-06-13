@@ -62,4 +62,5 @@ jobs:
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           VIDEO_TITLE: ${{ github.event.inputs.title }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          VIDEO_DESCRIPTION: ${{ github.event.inputs.description }}
         run: python upload_youtube.py --file output.mp4

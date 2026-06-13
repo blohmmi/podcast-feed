@@ -41,7 +41,8 @@ def upload_video(title, description, file_path):
             'categoryId': '22'
         },
         'status': {
-            'privacyStatus': 'public'
+            'privacyStatus': 'public',
+            'selfDeclaredMadeForKids': False
         }
     }
 

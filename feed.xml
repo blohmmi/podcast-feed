@@ -5,10 +5,10 @@
     <link>https://blohmmi.github.io/podcast-feed/</link>
     <description>Příběhy lidí, kteří zanechali otisk na světě. A někdy šrám.</description>
     <language>cs</language>
-    <itunes:author>Miroslav Blohmann</itunes:author>
+    <itunes:author>Otisk Podcastn</itunes:author>
     <itunes:explicit>false</itunes:explicit>
     <itunes:owner>
-      <itunes:name>Miroslav Blohmann</itunes:name>
+      <itunes:name>Otisk Podcast</itunes:name>
       <itunes:email>otisk.podcast@gmail.com</itunes:email>
     </itunes:owner>
     <itunes:image href="https://blohmmi.github.io/podcast-feed/Otisk_cover_3000x3000.png"/>
@@ -129,7 +129,7 @@ Sam Bankman-Fried daroval stovky milionů na charitu, financoval politiky a tvrd
 
 Tato epizoda se neptá, jestli byl SBF podvodník — to rozhodl soud. Ptá se, jak je možné, že mu tolik chytrých lidí tak dlouho věřilo, a co o nás říká filozofie, která ospravedlňuje lež jako nástroj dobra.
 
-**V epizodě uslyšíš:**
+🎙️ V epizodě uslyšíš:
 
 – Jak efektivní altruismus posloužil jako morální krytí pro miliardové riziko s cizími penězi
 – Proč Silicon Valley, média i politici ignorovali varovné signály roky před kolapsem
@@ -139,7 +139,7 @@ Tato epizoda se neptá, jestli byl SBF podvodník — to rozhodl soud. Ptá se, 
 
 ---
 
-OTISK je podcast o lidech, kteří zanechali stopu — ať chtěli, nebo ne.</description>
+📌 OTISK je podcast o lidech, kteří zanechali stopu — ať chtěli, nebo ne.</description>
     <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=19FLTvx53ZtXQ0i90lIEjHXa6_kDQoKI_" type="audio/mpeg" length="0"/>
     <pubDate>Sat, 13 Jun 2026 13:40:01 GMT</pubDate>
     <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=19FLTvx53ZtXQ0i90lIEjHXa6_kDQoKI_</guid>

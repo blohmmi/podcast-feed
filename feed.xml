@@ -184,6 +184,32 @@ Tahle epizoda se neptá, jak Airbnb přežilo. Ptá se, co Chesky udělal jinak 
       <itunes:episode>8</itunes:episode>
     </item>
 
-    <!-- ITEMS -->
+      <item>
+    <title>9. Otisk: Reed Hastings Jak bezcitně ovládl Netflix</title>
+    <description># 9. Otisk: Reed Hastings — Jak bezcitně ovládl Netflix
+
+Reed Hastings propustil třetinu zaměstnanců jediným e-mailem. Bez varování, bez rozloučení — jen studená zpráva a konec. Nebyl to krizový moment. Byl to záměr. Muž, který postavil Netflix na myšlence „radikální upřímnosti&quot;, ji sám praktikoval způsobem, který většina lidí nazývá prostě krutostí.
+
+V téhle epizodě nejde o to, jak Netflix změnil Hollywood. Jde o to, co Hastings obětoval — a koho — aby se tam dostal. Příběh, který streamovací platformy nerády vyprávějí o sobě.
+
+---
+
+🎙️ **V epizodě uslyšíš:**
+
+– Jak Hastings přišel o svou první firmu a co si z toho odnesl — ne pokoru, ale metodu
+– Proč je firemní kultura Netflixu obdivovaná v Silicon Valley a nenáviděná těmi, kdo ji zažili zevnitř
+– Jak se zbavil spoluzakladatele Marca Randolpha — tiše, efektivně, bez dramatu
+– Co znamená „keeper test&quot; v praxi a proč ho personalisté po světě kopírují bez varování
+– Kde končí vize a začíná ego — a jestli u Hastingse ta hranice vůbec existuje
+
+---
+
+📌 OTISK je podcast o lidech, kteří zanechali stopu — ať chtěli, nebo ne.</description>
+    <enclosure url="https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1fR5x616_xlIQ3pS0lo5utrRnO7_0IeZU" type="audio/mpeg" length="0"/>
+    <pubDate>Sat, 13 Jun 2026 20:30:04 GMT</pubDate>
+    <guid isPermaLink="false">https://drive.google.com/uc?export=download&amp;confirm=t&amp;id=1fR5x616_xlIQ3pS0lo5utrRnO7_0IeZU</guid>
+    <itunes:episode>9</itunes:episode>
+  </item>
+  <!-- ITEMS -->
   </channel>
 </rss>
